@@ -3,6 +3,7 @@
 # Helidon Quickstart SE Example
 
 This project implements a simple Hello World REST service using Helidon SE.
+Look at https://helidon.io/#/ for more informations.
 
 ## Prerequisites
 
