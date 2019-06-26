@@ -34,13 +34,13 @@ import io.helidon.webserver.Service;
  * A simple service to greet you. Examples:
  *
  * Get default greeting message:
- * curl -X GET http://localhost:8080/greet
+ * curl -X GET http://localhost:8090/greet
  *
  * Get greeting message for Joe:
- * curl -X GET http://localhost:8080/greet/Joe
+ * curl -X GET http://localhost:8090/greet/Joe
  *
  * Change greeting
- * curl -X PUT -H "Content-Type: application/json" -d '{"greeting" : "Howdy"}' http://localhost:8080/greet/greeting
+ * curl -X PUT -H "Content-Type: application/json" -d '{"greeting" : "Howdy"}' http://localhost:8090/greet/greeting
  *
  * The message is returned as a JSON object
  */
