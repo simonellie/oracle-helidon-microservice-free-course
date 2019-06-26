@@ -21,6 +21,7 @@ minikube version
 kubectl version --short
 ```
 ## Create project
+```
 mvn archetype:generate -DinteractiveMode=false \
     -DarchetypeGroupId=io.helidon.archetypes \
     -DarchetypeArtifactId=helidon-quickstart-se \
@@ -28,6 +29,7 @@ mvn archetype:generate -DinteractiveMode=false \
     -DgroupId=io.helidon.examples \
     -DartifactId=helidon-quickstart-se \
     -Dpackage=io.helidon.examples.quickstart.se
+```
 
 ## Build
 
